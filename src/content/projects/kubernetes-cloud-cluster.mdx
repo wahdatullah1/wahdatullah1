@@ -1,0 +1,21 @@
+---
+title: Kubernetes-Based Cloud Cluster
+summary: Scalable HPC-ready Kubernetes cluster with automated provisioning.
+tags: ["kubernetes", "devops", "hpc", "networking"]
+year: 2024
+stack: ["Terraform", "Kubernetes", "Helm"]
+heroImage: "/images/k8s-cluster.jpg"
+links:
+  repo: "https://github.com/wahdatullah1/k8s-cluster"
+  demo: "https://cluster.demo"
+outcomes:
+  - "Cut deployment time by 60%"
+  - "Reduced cluster DNS errors to near-zero"
+role: Lead DevOps Engineer
+---
+
+<Callout>Diagram slot + before/after metrics</Callout>
+
+<ProsCons pros={['Declarative IaC', 'Auto-scaling']} cons={['Complex networking']}/>
+
+<CodeTabs tabs={[{label:'YAML',children:`apiVersion: v1\nkind: Pod`},{label:'Helm',children:`helm install cluster`}]} />
